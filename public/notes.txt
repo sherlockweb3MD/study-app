@@ -1,0 +1,31 @@
+Pharmacology Study Notes
+========================
+
+1. Antiretroviral Drugs
+- NRTIs (Nucleoside Reverse Transcriptase Inhibitors): Tenofovir, Lamivudine, Emtricitabine
+- NNRTIs (Non-Nucleoside Reverse Transcriptase Inhibitors): Efavirenz, Nevirapine, Rilpivirine
+- Protease Inhibitors: Atazanavir, Darunavir, Lopinavir
+- Integrase Inhibitors: Dolutegravir, Raltegravir, Bictegravir
+
+2. Antihypertensive Drugs
+- ACE Inhibitors: Enalapril, Lisinopril, Ramipril
+- ARBs: Losartan, Valsartan, Olmesartan
+- Calcium Channel Blockers: Amlodipine, Nifedipine, Diltiazem
+- Beta Blockers: Metoprolol, Propranolol, Atenolol
+- Diuretics: Hydrochlorothiazide, Furosemide, Spironolactone
+
+3. Corticosteroids
+- Glucocorticoids: Prednisolone, Dexamethasone, Hydrocortisone
+- Mineralocorticoid Antagonists: Spironolactone, Eplerenone
+- Glucocorticoid Antagonists/Synthesis Inhibitors: Metyrapone, Aminoglutethimide, Ketoconazole, Mifepristone
+
+4. Antibiotics
+- Penicillins: Amoxicillin, Ampicillin, Piperacillin
+- Cephalosporins: Ceftriaxone, Cefixime, Cefuroxime
+- Macrolides: Azithromycin, Clarithromycin, Erythromycin
+- Fluoroquinolones: Ciprofloxacin, Levofloxacin, Moxifloxacin
+
+5. Analgesics
+- NSAIDs: Ibuprofen, Diclofenac, Naproxen
+- Opioids: Morphine, Fentanyl, Tramadol
+- Paracetamol (Acetaminophen)

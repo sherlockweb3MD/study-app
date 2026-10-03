@@ -1,0 +1,5 @@
+Course,Question,Option_A,Option_B,Option_C,Option_D,Correct_Answer,Explanation
+Pharmacology,Which class does Tenofovir belong to?,NNRTI,NRTI,Protease Inhibitor,Integrase Inhibitor,B,Tenofovir is a Nucleoside Reverse Transcriptase Inhibitor (NRTI) - NOT an NNRTI.
+Pharmacology,Which class does Efavirenz belong to?,NNRTI,NRTI,Protease Inhibitor,Integrase Inhibitor,A,Efavirenz is a Non-Nucleoside Reverse Transcriptase Inhibitor (NNRTI).
+Pharmacology,Which class does Dolutegravir belong to?,NNRTI,NRTI,Protease Inhibitor,Integrase Inhibitor (INSTI),D,Dolutegravir is an Integrase Strand Transfer Inhibitor (INSTI).
+Pharmacology,Which class does Maraviroc belong to?,NNRTI,NRTI,Protease Inhibitor,Entry / Fusion Inhibitor,D,Maraviroc is an Entry / Fusion Inhibitor.

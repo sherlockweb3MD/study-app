@@ -1,0 +1,49 @@
+{
+  "name": "my-first-project",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev --webpack",
+    "build": "next build --webpack",
+    "start": "next start",
+    "lint": "eslint",
+    "upload-csv": "npx tsx scripts/upload-csv.ts",
+    "upload-past-questions": "npx tsx scripts/upload-past-questions.ts",
+    "upload-past-questions-v2": "npx tsx scripts/upload-past-questions-v2.ts",
+    "upload-past-questions-v3": "npx tsx scripts/upload-past-questions-v3.ts",
+    "upload-past-questions-v4": "npx tsx scripts/upload-past-questions-v4.ts",
+    "upload-past-questions-v5": "npx tsx scripts/upload-past-questions-v5.ts",
+    "generate-content": "npx tsx scripts/generate-content.ts",
+    "fix-markdown-tables": "npx tsx scripts/fix-markdown-tables.ts",
+    "convert-tables-to-bullets": "npx tsx scripts/convert-tables-to-bullets.ts",
+    "strip-answer-numbers": "npx tsx scripts/strip-answer-numbers.ts",
+    "reset-and-reupload": "npx tsx scripts/reset-and-reupload.ts",
+    "convert-to-structured": "npx tsx scripts/convert-to-structured.ts",
+    "regenerate-content": "npx tsx scripts/regenerate-content.ts",
+    "upload-ai-mcqs": "npx tsx scripts/upload-ai-mcqs.ts",
+    "upload-flashcards": "npx tsx scripts/upload-flashcards.ts"
+  },
+  "dependencies": {
+    "@supabase/ssr": "^0.12.7",
+    "@supabase/supabase-js": "^2.117.2",
+    "csv-parse": "^7.0.3",
+    "dotenv": "^18.0.5",
+    "next": "16.3.8",
+    "react": "19.2.8",
+    "react-dom": "19.2.8",
+    "react-markdown": "^10.1.0",
+    "remark-gfm": "^4.0.1"
+  },
+  "devDependencies": {
+    "@tailwindcss/postcss": "^4",
+    "@tailwindcss/typography": "^0.5.20",
+    "@types/node": "^20",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "eslint": "^9",
+    "eslint-config-next": "16.3.8",
+    "tailwindcss": "^4",
+    "tsx": "^4.23.15",
+    "typescript": "^5"
+  }
+}
