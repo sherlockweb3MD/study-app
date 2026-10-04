@@ -114,7 +114,7 @@ export default function DashboardPage() {
                 />
               </svg>
             </div>
-            <span className="text-lg font-bold text-neutral-900">StudyApp</span>
+            <span className="text-lg font-bold text-neutral-900">AcmeMed</span>
           </div>
           <button
             onClick={handleLogout}

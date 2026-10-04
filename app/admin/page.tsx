@@ -128,7 +128,7 @@ export default function AdminPage() {
                 />
               </svg>
             </div>
-            <span className="text-lg font-bold text-neutral-900">Admin Panel</span>
+            <span className="text-lg font-bold text-neutral-900">AcmeMed Admin</span>
           </div>
           <button
             onClick={handleLogout}

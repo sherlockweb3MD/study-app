@@ -1,4 +1,4 @@
-# StudyApp Design System
+# AcmeMed Design System
 
 ## Color Palette
 

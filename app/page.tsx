@@ -23,7 +23,7 @@ export default function Home() {
         </div>
 
         <h1 className="text-4xl font-extrabold tracking-tight text-neutral-900 mb-2">
-          StudyApp
+          AcmeMed
         </h1>
         <p className="text-lg text-neutral-500 mb-10">
           Your ultimate study companion for Pharmacology
