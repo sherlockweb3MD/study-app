@@ -30,35 +30,48 @@ export default function SignupPage() {
 
     setLoading(true);
 
-    // Create user via Admin API (bypasses email rate limit)
-    const res = await fetch("/api/signup", {
-      method: "POST",
-      headers: { "Content-Type": "application/json" },
-      body: JSON.stringify({ email, password }),
-    });
+    try {
+      console.log("[signup] POSTing to /api/signup");
 
-    const data = await res.json();
+      const res = await fetch("/api/signup", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ email, password }),
+      });
 
-    if (!res.ok) {
-      setError(data.error || "Signup failed");
+      console.log("[signup] Response status:", res.status);
+
+      const data = await res.json();
+
+      if (!res.ok) {
+        setError(data.error || "Signup failed");
+        setLoading(false);
+        return;
+      }
+
+      console.log("[signup] User created, logging in...");
+
+      // Log the user in immediately
+      const { error: signInError } = await supabase.auth.signInWithPassword({
+        email,
+        password,
+      });
+
+      if (signInError) {
+        console.error("[signup] Sign-in error:", signInError);
+        setError(signInError.message);
+        setLoading(false);
+        return;
+      }
+
+      console.log("[signup] Sign-in successful, redirecting...");
+      router.push("/dashboard");
+      router.refresh();
+    } catch (err: any) {
+      console.error("[signup] Fetch failed:", err);
+      setError("Could not reach the server. Please try again.");
       setLoading(false);
-      return;
     }
-
-    // Log the user in immediately
-    const { error: signInError } = await supabase.auth.signInWithPassword({
-      email,
-      password,
-    });
-
-    if (signInError) {
-      setError(signInError.message);
-      setLoading(false);
-      return;
-    }
-
-    router.push("/dashboard");
-    router.refresh();
   }
 
   return (
