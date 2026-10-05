@@ -155,8 +155,8 @@ CREATE POLICY "Admin can delete flashcards"
 CREATE OR REPLACE FUNCTION public.handle_new_user()
 RETURNS TRIGGER AS $$
 BEGIN
-  INSERT INTO public.users (id, email)
-  VALUES (NEW.id, NEW.email);
+  INSERT INTO public.users (id, email, is_paid)
+  VALUES (NEW.id, NEW.email, true);
   RETURN NEW;
 END;
 $$ LANGUAGE plpgsql SECURITY DEFINER;
